@@ -10,4 +10,17 @@
 
 @interface SBSystemMessage : NSObject
 
+@property (strong,nonatomic) NSDate *timestamp;
+@property (strong,nonatomic) NSString *host;
+@property (strong,nonatomic) NSString *sender;
+@property (strong,nonatomic) NSString *facility;
+@property (strong,nonatomic) NSString *messageText;
+@property (strong,nonatomic) NSString *messageId;
+@property (strong,nonatomic) NSString *session;
+@property (nonatomic) int pid;
+@property (nonatomic) int uid;
+@property (nonatomic) int gid;
+@property (nonatomic) int level;
+
+
 @end

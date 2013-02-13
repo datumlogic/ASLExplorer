@@ -10,4 +10,10 @@
 
 @interface SBFirstViewController : UIViewController
 
+- (IBAction)logLevelValueChanged:(id)sender;
+- (IBAction)pickNewMessageClicked:(id)sender;
+- (IBAction)logMessageClicked:(id)sender;
+- (IBAction)nslogSwitchToggled:(id)sender;
+- (IBAction)restrictGidUidToggled:(id)sender;
+
 @end

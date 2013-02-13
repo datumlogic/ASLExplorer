@@ -26,6 +26,7 @@
 		63E616F116C5382A00AB4A6F /* SBFirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E616EF16C5382A00AB4A6F /* SBFirstViewController_iPad.xib */; };
 		63E616F416C5382A00AB4A6F /* SBSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E616F216C5382A00AB4A6F /* SBSecondViewController_iPhone.xib */; };
 		63E616F716C5382A00AB4A6F /* SBSecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E616F516C5382A00AB4A6F /* SBSecondViewController_iPad.xib */; };
+		63E6170016C5505C00AB4A6F /* SBSystemMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E616FF16C5505C00AB4A6F /* SBSystemMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,16 +45,18 @@
 		63E616DC16C5382A00AB4A6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63E616DE16C5382A00AB4A6F /* SBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBFirstViewController.h; sourceTree = "<group>"; };
 		63E616DF16C5382A00AB4A6F /* SBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBFirstViewController.m; sourceTree = "<group>"; };
-		63E616E116C5382A00AB4A6F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		63E616E316C5382A00AB4A6F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		63E616E116C5382A00AB4A6F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = ASLExplorer/first.png; sourceTree = "<group>"; };
+		63E616E316C5382A00AB4A6F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "ASLExplorer/first@2x.png"; sourceTree = "<group>"; };
 		63E616E516C5382A00AB4A6F /* SBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSecondViewController.h; sourceTree = "<group>"; };
 		63E616E616C5382A00AB4A6F /* SBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSecondViewController.m; sourceTree = "<group>"; };
-		63E616E816C5382A00AB4A6F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		63E616EA16C5382A00AB4A6F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		63E616E816C5382A00AB4A6F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = ASLExplorer/second.png; sourceTree = "<group>"; };
+		63E616EA16C5382A00AB4A6F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "ASLExplorer/second@2x.png"; sourceTree = "<group>"; };
 		63E616ED16C5382A00AB4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBFirstViewController_iPhone.xib; sourceTree = "<group>"; };
 		63E616F016C5382A00AB4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBFirstViewController_iPad.xib; sourceTree = "<group>"; };
 		63E616F316C5382A00AB4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBSecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		63E616F616C5382A00AB4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBSecondViewController_iPad.xib; sourceTree = "<group>"; };
+		63E616FE16C5505C00AB4A6F /* SBSystemMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSystemMessage.h; sourceTree = "<group>"; };
+		63E616FF16C5505C00AB4A6F /* SBSystemMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSystemMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				63E616CC16C5382900AB4A6F /* ASLExplorer */,
+				63E616FD16C5389D00AB4A6F /* Resources */,
 				63E616C516C5382900AB4A6F /* Frameworks */,
 				63E616C416C5382900AB4A6F /* Products */,
 			);
@@ -104,16 +108,10 @@
 				63E616D616C5382A00AB4A6F /* SBAppDelegate.m */,
 				63E616DE16C5382A00AB4A6F /* SBFirstViewController.h */,
 				63E616DF16C5382A00AB4A6F /* SBFirstViewController.m */,
-				63E616E116C5382A00AB4A6F /* first.png */,
-				63E616E316C5382A00AB4A6F /* first@2x.png */,
 				63E616E516C5382A00AB4A6F /* SBSecondViewController.h */,
 				63E616E616C5382A00AB4A6F /* SBSecondViewController.m */,
-				63E616E816C5382A00AB4A6F /* second.png */,
-				63E616EA16C5382A00AB4A6F /* second@2x.png */,
-				63E616EC16C5382A00AB4A6F /* SBFirstViewController_iPhone.xib */,
-				63E616EF16C5382A00AB4A6F /* SBFirstViewController_iPad.xib */,
-				63E616F216C5382A00AB4A6F /* SBSecondViewController_iPhone.xib */,
-				63E616F516C5382A00AB4A6F /* SBSecondViewController_iPad.xib */,
+				63E616FE16C5505C00AB4A6F /* SBSystemMessage.h */,
+				63E616FF16C5505C00AB4A6F /* SBSystemMessage.m */,
 				63E616CD16C5382A00AB4A6F /* Supporting Files */,
 			);
 			path = ASLExplorer;
@@ -131,6 +129,21 @@
 				63E616DC16C5382A00AB4A6F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E616FD16C5389D00AB4A6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63E616F516C5382A00AB4A6F /* SBSecondViewController_iPad.xib */,
+				63E616F216C5382A00AB4A6F /* SBSecondViewController_iPhone.xib */,
+				63E616EF16C5382A00AB4A6F /* SBFirstViewController_iPad.xib */,
+				63E616EC16C5382A00AB4A6F /* SBFirstViewController_iPhone.xib */,
+				63E616EA16C5382A00AB4A6F /* second@2x.png */,
+				63E616E316C5382A00AB4A6F /* first@2x.png */,
+				63E616E116C5382A00AB4A6F /* first.png */,
+				63E616E816C5382A00AB4A6F /* second.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +224,7 @@
 				63E616D716C5382A00AB4A6F /* SBAppDelegate.m in Sources */,
 				63E616E016C5382A00AB4A6F /* SBFirstViewController.m in Sources */,
 				63E616E716C5382A00AB4A6F /* SBSecondViewController.m in Sources */,
+				63E6170016C5505C00AB4A6F /* SBSystemMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +245,7 @@
 				63E616ED16C5382A00AB4A6F /* en */,
 			);
 			name = SBFirstViewController_iPhone.xib;
+			path = ASLExplorer;
 			sourceTree = "<group>";
 		};
 		63E616EF16C5382A00AB4A6F /* SBFirstViewController_iPad.xib */ = {
@@ -239,6 +254,7 @@
 				63E616F016C5382A00AB4A6F /* en */,
 			);
 			name = SBFirstViewController_iPad.xib;
+			path = ASLExplorer;
 			sourceTree = "<group>";
 		};
 		63E616F216C5382A00AB4A6F /* SBSecondViewController_iPhone.xib */ = {
@@ -247,6 +263,7 @@
 				63E616F316C5382A00AB4A6F /* en */,
 			);
 			name = SBSecondViewController_iPhone.xib;
+			path = ASLExplorer;
 			sourceTree = "<group>";
 		};
 		63E616F516C5382A00AB4A6F /* SBSecondViewController_iPad.xib */ = {
@@ -255,6 +272,7 @@
 				63E616F616C5382A00AB4A6F /* en */,
 			);
 			name = SBSecondViewController_iPad.xib;
+			path = ASLExplorer;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,10 +339,15 @@
 		63E616FB16C5382A00AB4A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASLExplorer/ASLExplorer-Prefix.pch";
 				INFOPLIST_FILE = "ASLExplorer/ASLExplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "029C90D5-D9F4-4D76-9926-7BEF20B7358C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "029C90D5-D9F4-4D76-9926-7BEF20B7358C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -332,10 +355,15 @@
 		63E616FC16C5382A00AB4A6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dardeau (89W7MXH4RB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASLExplorer/ASLExplorer-Prefix.pch";
 				INFOPLIST_FILE = "ASLExplorer/ASLExplorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "029C90D5-D9F4-4D76-9926-7BEF20B7358C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "029C90D5-D9F4-4D76-9926-7BEF20B7358C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -359,6 +387,7 @@
 				63E616FC16C5382A00AB4A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

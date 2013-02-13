@@ -14,4 +14,9 @@
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
+@property (strong, nonatomic) NSString *sender;
+@property (strong, nonatomic) NSString *gid;
+@property (strong, nonatomic) NSString *uid;
+@property (strong, nonatomic) NSString *pid;
+
 @end

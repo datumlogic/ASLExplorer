@@ -14,10 +14,18 @@
 
 @implementation SBAppDelegate
 
+@synthesize sender;
+@synthesize gid;
+@synthesize uid;
+@synthesize pid;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    self.sender = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleNameKey];
+
     UIViewController *viewController1, *viewController2;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         viewController1 = [[SBFirstViewController alloc] initWithNibName:@"SBFirstViewController_iPhone" bundle:nil];
@@ -30,6 +38,11 @@
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    
+    self.gid = [NSString stringWithFormat:@"%d", getgid()];
+    self.uid = [NSString stringWithFormat:@"%d", getuid()];
+    self.pid = [NSString stringWithFormat:@"%d", getpid()];
+
     return YES;
 }
 

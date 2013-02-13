@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SBSecondViewController : UIViewController
+@interface SBSecondViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
+- (IBAction)queryButtonClicked:(id)sender;
+- (IBAction)logLevelValueChanged:(id)sender;
 
 @end

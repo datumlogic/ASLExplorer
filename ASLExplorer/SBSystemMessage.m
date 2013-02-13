@@ -10,4 +10,16 @@
 
 @implementation SBSystemMessage
 
+@synthesize timestamp;
+@synthesize host;
+@synthesize sender;
+@synthesize facility;
+@synthesize messageText;
+@synthesize messageId;
+@synthesize session;
+@synthesize pid;
+@synthesize uid;
+@synthesize gid;
+@synthesize level;
+
 @end
