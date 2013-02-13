@@ -1,0 +1,4 @@
+This iOS app demonstrates how to make use of Apple System Logger (ASL) on iOS. The
+project was created for making universal apps (iPhone and iPad), but the UI has only
+been implemented on iPhone so far.
+
